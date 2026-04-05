@@ -1,0 +1,15 @@
+problem:
+  type: "n_queens"
+  size: 8
+  penalty: 10.0
+
+annealing:
+  T_start: 20.0
+  T_end: 0.1
+  cooling_rate: 0.99
+  steps: 200
+
+ml:
+  hidden_dim: 64
+  model_path: "models/gnn_n_queens.pth"
+  use_gnn: true
