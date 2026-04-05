@@ -78,7 +78,7 @@ Requires [uv](https://github.com/astral-sh/uv) for high-performance dependency m
 ```bash
 # Clone the repository
 git clone https://github.com/ParaDhim/QOBO
-cd qobo-solver
+cd QOBO
 
 # Setup environment and install dependencies
 uv sync
